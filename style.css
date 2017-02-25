@@ -1,10 +1,9 @@
 button,
-		div,
 		form,
 		input {
-		margin: 10px;
+		font-weight;
 		text-align: center;
-		font-weight
+		margin:10px;
 		}
 		button,#add-gif{
 			background-color: red;
@@ -13,8 +12,10 @@ button,
 			height:30px;
 			border-radius: 6px;
 			color: #fff;
-		background-color: #337ab7;
-		border-color: #2e6da4;
+			background-color: #337ab7;
+			border-color: #2e6da4;
+			text-align:center;
+			text-align: center;
 		}
 		body{
 		background-color: lightblue;
@@ -23,10 +24,13 @@ button,
 			width:400px;
 			height:300px;
 			border:2px solid black;
-			margin-top:-10px;
-		}#gif-list{
-			margin-left:50px;
+			margin-top:-50px;
+			float:left;
 		}
+		#gif-list{
+		margin-left:50px;
+		}
+		
 		h1{
 			text-align: center;
 			font-family: 'Mogra', cursive;
@@ -38,4 +42,27 @@ button,
 		}
 		label{
 			font-family: 'Mogra', cursive;
+		}
+		.rating{
+			font-weight: bold;
+			font-size: 20px;
+			float:left;
+			color:white;
+			margin:0px;
+			}
+		
+		.rating div{
+		position:relative;
+		left:2px;
+		top:275px;
+		width:110px;
+		background-color: grey;
+		text-align: left;
+		border:1px solid black;
+		}
+		
+		
+		
+		#giffy-favs{
+		text-align: center;
 		}
